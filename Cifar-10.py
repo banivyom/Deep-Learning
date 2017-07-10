@@ -89,3 +89,4 @@ else:
                         steps_per_epoch=x_train.shape[0] // batch_size,
                         epochs=epochs,
 validation_data=(x_test, y_test))
+#80% accuracy using only CPU computations
